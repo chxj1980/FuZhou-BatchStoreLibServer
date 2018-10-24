@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="System&amp;Config">
+      <UniqueIdentifier>{45a553b6-9c52-423c-917e-cb48802cf7bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System&amp;Config\源文件">
+      <UniqueIdentifier>{6a57729c-9017-413e-adda-b0ed4c2d711c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System&amp;Config\头文件">
+      <UniqueIdentifier>{909c297c-de2d-491a-b629-9e02f4646b9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="http">
+      <UniqueIdentifier>{50013ab1-80c6-48c2-ba3a-2c7793a57b36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="http\源文件">
+      <UniqueIdentifier>{049673ba-0d5e-4ebb-9bf7-8143558275ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="http\头文件">
+      <UniqueIdentifier>{c2aff45f-cf70-4cb1-b529-6e4304461c02}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\HttpServerAction.cpp">
+      <Filter>http\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TCPIOCPSocket.cpp">
+      <Filter>http\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ConfigRead.cpp">
+      <Filter>System&amp;Config\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LogRecorder.cpp">
+      <Filter>System&amp;Config\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NTservice.cpp">
+      <Filter>System&amp;Config\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ZBase64.cpp">
+      <Filter>System&amp;Config\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mysql_acl.cpp">
+      <Filter>System&amp;Config\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HttpProtocol.cpp">
+      <Filter>http\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BatchStoreLibServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XSBatchStoreLibServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GetFeature.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnalyseStore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ZeromqManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\TCPIOCPSocket.h">
+      <Filter>http\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\HttpServerAction.h">
+      <Filter>http\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ConfigRead.h">
+      <Filter>System&amp;Config\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ZBase64.h">
+      <Filter>System&amp;Config\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LogRecorder.h">
+      <Filter>System&amp;Config\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\NTservice.h">
+      <Filter>System&amp;Config\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\NTservmsg.h">
+      <Filter>System&amp;Config\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DataDefine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mysql_acl.h">
+      <Filter>System&amp;Config\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\HttpProtocol.h">
+      <Filter>http\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BatchStoreLibServer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GetFeature.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalyseStore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ZeromqManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
